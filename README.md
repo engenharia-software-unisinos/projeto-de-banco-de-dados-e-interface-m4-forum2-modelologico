@@ -1,3 +1,4 @@
+```
 Table aluno {
   id integer [pk, increment]
   name varchar
@@ -90,3 +91,4 @@ Table historico_aluno_aluno_curso_nota {
   idHistorico integer [ref: > historico_aluno.id]
   aluno_curso_nota integer [ref: > aluno_curso_nota.id]
 }
+```
